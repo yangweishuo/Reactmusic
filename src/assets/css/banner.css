@@ -1,0 +1,39 @@
+.banner {
+    width: 100%;
+    height: 4.61081rem
+}
+.banner img {
+    width: 100%;
+    height: auto
+}
+.ant-carousel{
+    width: 100%;
+    height: 4.61081rem;
+}
+.ant-carousel .slick-slide {
+    width: 100%;
+    height: 4.61081rem;
+    overflow: hidden;
+    touch-action: none;
+}
+.slick-list{
+    width: 100%;
+    height: 4.61081rem;
+    opacity: 1;
+    transform: translate3d(-360px, 0px, 0px);
+    touch-action: none;
+    overflow: hidden;
+    display: block;
+}
+.slick-list .slick-track{
+    width: 100%;
+    height: 4.61081rem;
+    touch-action: none;
+    display: block;
+}
+
+.ant-carousel .slick-slide div {
+    width: 100%;
+    height: 4.61081rem;
+    display: block;
+}

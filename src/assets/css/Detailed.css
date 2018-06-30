@@ -1,0 +1,128 @@
+.sections{
+ 	width: 100%;
+ 	height: 100%;
+ 	display: flex;
+ 	flex-direction: column;
+ }
+.sections .s_bg{
+	width: 100%;
+	height: 7.54054rem;
+	overflow: hidden;
+}
+.sections .top{
+	width: 100%;
+	height: 7.54054rem;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50%;
+	filter: blur(20px);
+	transform: scale(1.5);
+}
+.sections  .t_t{
+    width: 100%;
+ 	height: 7.54054rem;
+	z-index: 1;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+}
+.sections  .t_t .t_ttop{
+	width: 100%;
+	height: 1.513513rem;
+	line-height: 1.513513rem;
+	display: flex;
+	color: #fff;
+	background: #0a67fb;
+}
+.sections  .t_t .t_ttop a{
+	display: block;
+	flex: 2;
+	text-align: center;
+	line-height: 1.513513rem;
+	font-size: 24px;
+	color: #fff;
+}
+.sections  .t_t .t_ttop h1{
+	flex: 10;
+	font-size: 24px;
+	font-weight: bolder;
+	color: #fff;
+
+}
+.sections  .t_t .t_tbottom{
+	margin-top:18px;
+	width: 100%;
+	height: 4.324324rem;
+	display: flex;
+}
+.sections  .t_t .t_tbottom .t_img{
+	width: 4.324324rem;
+	height: 4.324324rem;
+	flex: 4;
+	margin-left: 18px;
+}
+.sections  .t_t .t_tbottom .t_name{
+	width: 100%;
+	height: 4.324324rem;
+	flex: 8;
+}
+.sections  .t_t .t_tbottom .t_name p{
+	text-align: center;
+	line-height: 0.9rem;
+	font-size: 19px;
+	color: #fff;
+}
+.sections  .t_t .t_tbottom .t_img img{
+	width: 100%;
+	height: auto;
+}
+.top:after {
+    content: " ";
+    background-color: rgba(0,0,0,.25);
+}
+.sections .list{
+	margin-top: 10px;
+	flex: 1;
+	width: 100%;
+	height: 10.378378rem;
+	overflow-y:scroll;
+}
+.sections .list ul{
+	width: 100%;
+	height: 10.378378rem;
+}
+.sections .list ul li{
+	display: flex;
+	width: 100%;
+	line-height: 1.486486rem;
+	font-size: 0.378378rem;
+}
+.sections .list ul li .l_num{
+	flex: 2;
+	text-align: center;
+}
+.sections .list ul li a{
+	display: block;
+	flex: 10;
+	border-bottom: 1px solid #ccc;
+}
+.title{
+	width: 100%;
+    height: 0.54054rem;
+    padding-top: 0.54054rem;
+    padding-bottom: 0.54054rem;
+    display: flex;
+}
+.title h3 {
+   padding-left: .378378rem
+}
+.title h3{
+	flex: 11;
+	height: .54054rem;
+}
+.title i{
+	display: block;
+	flex: 1;
+	line-height: .54054rem;
+}

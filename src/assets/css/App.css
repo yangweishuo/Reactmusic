@@ -1,0 +1,24 @@
+.App {
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+.App .Tabs{
+	height: 60px;
+
+}
+
+.App .section{
+	flex: 1;
+}
+body a{
+	color: #000000;
+}
+
+html,body,#root,.router,.App{
+	height: 100%;
+	width: 100%;
+}
+
